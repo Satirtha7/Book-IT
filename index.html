@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>The Golden Leaf | Preview (2 Sections)</title>
-
+    
+    <!-- Phase 22: SEO & Meta Tags -->
+    <title>The Golden Leaf | Premium Dining & Reservations</title>
+    <meta name="description" content="Experience the art of dining at The Golden Leaf. Reserve your table online for premium multi-cuisine dishes and luxury ambiance.">
+    <meta name="keywords" content="premium restaurant, fine dining, table reservation, best restaurant, luxury dining">
+    <meta property="og:title" content="The Golden Leaf | Premium Dining">
+    <meta property="og:description" content="Book your table for an unforgettable culinary experience.">
+    <meta property="og:type" content="website">
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+    
     <!-- FontAwesome & AOS Animation Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- Custom CSS (your uploaded files) -->
-   
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Satirtha Dhar/style.css">
+    <link rel="stylesheet" href="Satirtha Dhar/responsive.css">
 </head>
 <body>
 
-    <!-- ===== PICTURE 1: Top banner + Navbar + Hero (from your index.html) ===== -->
+    <!-- Phase 10: AI Receptionist Top Banner (Optional/Mockup) -->
     <div class="ai-top-banner" role="banner">
-        <p>Need instant help? <button id="btnAiAssist" class="btn-text">🎙️ Talk to our AI Receptionist</button></p>
+        <p>Need instant help? <button id="btnAiAssist" class="btn-text"> Talk to our AI Receptionist</button></p>
     </div>
 
+    <!-- Navigation -->
     <header class="navbar" role="navigation" aria-label="Main Navigation">
         <div class="logo">
             <a href="index.html" aria-label="The Golden Leaf Home">THE GOLDEN LEAF</a>
@@ -36,12 +45,14 @@
             <a href="#reviews">Reviews</a>
             <a href="#reservation" class="btn-reserve-nav">Reserve Table</a>
         </nav>
+        <!-- Mobile Menu Toggle -->
         <button class="menu-toggle" aria-label="Toggle Navigation" aria-expanded="false">
             <i class="fas fa-bars"></i>
         </button>
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section id="home" class="hero-section" aria-labelledby="hero-title">
             <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
                 <h5 class="hero-subtitle">WELCOME TO LUXURY</h5>
@@ -54,7 +65,7 @@
             </div>
         </section>
 
-        <!-- ===== PICTURE 2: Live availability banner + Why Choose Us (from your index.html) ===== -->
+        <!-- Phase 3: Live Table Availability Banner -->
         <section class="live-availability-banner" aria-label="Table Availability">
             <div class="availability-container" data-aos="fade-up">
                 <div class="stat">
@@ -75,6 +86,7 @@
             </div>
         </section>
 
+        <!-- Phase 15: Why Choose Us -->
         <section id="about" class="features-section">
             <div class="section-header" data-aos="fade-up">
                 <h2>Why Choose Us</h2>
@@ -103,9 +115,7 @@
                 </div>
             </div>
         </section>
-    </main>
-
-    <!-- Floating "Need Help?" button (visible in Picture 2) -->
+ <!-- Floating "Need Help?" button (visible in Picture 2) -->
     <a href="https://the-golden-leaf-restaurant.onrender.com/"
        target="_blank"
        class="floating-ai-btn"
@@ -115,10 +125,15 @@
         <span class="ai-text">Need Help?</span>
     </a>
 
+      <nav class="nav-links">
+            <a href="Prem Kumar Jha/index.html" class="btn-reserve-nav">Go to Menu</a>
+        </nav>
+
     <!-- External Libraries -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Your own scripts (unchanged) -->
-
+    <script src="Satirtha Dhar/utils.js"></script>
+    <script src="Prem Kumar Jha/app.js"></script>
 </body>
 </html>
