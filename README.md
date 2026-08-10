@@ -8,7 +8,9 @@ The core functional requirement — a validated web form — is delivered throug
 
 ## Live Repository
 
-🔗 **GitHub Repository:** [ADD YOUR GITHUB REPO URL HERE]
+🔗 **GitHub Repository:** [https://github.com/Satirtha7/Book-IT](https://github.com/Satirtha7/Book-IT)
+
+🌐 **Live Site:** [https://satirtha7.github.io/Book-IT/](https://satirtha7.github.io/Book-IT/)
 
 ## Technologies Used
 
